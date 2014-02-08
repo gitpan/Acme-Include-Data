@@ -12,7 +12,7 @@
                               
 
 
-This is the README for Acme::Include::Data version 0.01.
+This is the README for Acme::Include::Data version 0.02.
 
 Acme::Include::Data is a "module" for the Perl computer programming language, a
 library of computer code to install on a computer.  This document contains four
@@ -32,7 +32,8 @@ sections:
 
 Acme::Include::Data - it's easy to include data with a CPAN module
 
-
+This is a demonstration module which demonstrates how to include a
+data file with a Perl module and how to read it in at run time.
 
 -----------------------------------------------------------------------------
 
@@ -64,11 +65,11 @@ If you have the App::cpanminus installer, you may prefer
 
     cpanm Acme::Include::Data
 
-To install the module from the source file, Acme-Include-Data-0.01.tar.gz,
+To install the module from the source file, Acme-Include-Data-0.02.tar.gz,
 follow this sequence of commands:
 
-    tar xfz Acme-Include-Data-0.01.tar.gz
-    cd Acme-Include-Data-0.01
+    tar xfz Acme-Include-Data-0.02.tar.gz
+    cd Acme-Include-Data-0.02
     perl Makefile.PL
     make
     make install
@@ -93,6 +94,6 @@ repository on github at
 
 -----------------------------------------------------------------------------
 
-This README was written on Sat Feb  8 11:12:45 2014.
+This README was written on Sat Feb  8 17:30:01 2014.
 
 -----------------------------------------------------------------------------
