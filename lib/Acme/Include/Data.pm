@@ -23,7 +23,7 @@ This is a function for testing the module.
 
 Please see L<this blog post|http://www.lemoda.net/perl/data-in-distro/> for more explanation.
 
-=head1 LICENCE
+=head1 LICENSE
 
 You can use, redistribute, and modify this under the same licence
 terms as Perl itself.
@@ -39,7 +39,7 @@ require Exporter;
 use warnings;
 use strict;
 use Carp;
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 
 my $data = __FILE__;
